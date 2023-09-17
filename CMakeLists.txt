@@ -65,7 +65,7 @@ target_include_directories(EASTL PUBLIC include)
 # Dependencies
 #-------------------------------------------------------------------------------------------
 if (NOT TARGET EABase)
-    add_subdirectory(test/packages/EABase)
+    add_subdirectory(jle_EABase)
 endif()
 
 target_link_libraries(EASTL EABase)
